@@ -46,11 +46,11 @@ The above image represents the training of model, which is as par with many alre
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Install dependencies
 
 ```bash
 pip install numpy torch gym[box2d]
-
-
+```
+### 2. CLone the repo and run the evaluation script
