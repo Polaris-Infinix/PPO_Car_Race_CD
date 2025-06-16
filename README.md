@@ -41,7 +41,6 @@ The above image represents the training of model, which is as par with many alre
 ✅ CNN for visual input  
 ✅ MLP for policy & value networks  
 ✅ Frame stacking (4 frames) for motion perception  
-✅ Discrete action space  
 ✅ Tested and fine-tuned for stability  
 
 ---
