@@ -10,7 +10,7 @@ https://github.com/user-attachments/assets/a63adbc1-21a1-46d3-b372-088868fa7210
 
 ##  How It Works
 
-- The agent observes the environment through **4 stacked RGB frames** (shape: `4 x 96 x 96 x 3`), enabling motion detection from pixel changes over time.
+- The agent observes the environment through **4 stacked RGB frames** (shape: `4 x 3 x 96 x 96`), enabling motion detection from pixel changes over time.
 - A **Convolutional Neural Network (CNN)** extracts spatial-temporal features from the visual input.
 - These features are passed to a **deep Multi-Layer Perceptron (MLP)** that outputs:
   - An **action policy** (probabilities over discrete actions)
