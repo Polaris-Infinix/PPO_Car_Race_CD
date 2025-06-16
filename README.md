@@ -3,7 +3,7 @@ This project trains an AI agent to autonomously drive in the **CarRacing-v3** en
 
 No external reinforcement learning libraries like Stable Baselines or RLlib were used.
 
-##Watch the trained agent in action:
+## Watch the trained agent in action:
 
 https://github.com/user-attachments/assets/a63adbc1-21a1-46d3-b372-088868fa7210
 
@@ -46,11 +46,21 @@ The above image represents the training of model, which is as par with many alre
 
 ---
 
-##  Getting Started
+##  Getting Started 
 
 ### 1. Install dependencies
 
 ```bash
 pip install numpy torch gym[box2d]
 ```
-### 2. CLone the repo and run the evaluation script
+### 2. Clone the Repository 
+```bash
+git clone https://github.com/Polaris-Infinix/PPO_Car_Race_CD.git
+cd PPO_Car_Race_CD
+```
+### 3. Download the model 
+``` bash 
+wget https://github.com/Polaris-Infinix/PPO_Car_Race_CD/releases/download/v1.0%5D/ppo_model100.pt
+```
+### 4. Run the Evaluation script
+Run the file Evaluation_script.py
