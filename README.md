@@ -4,7 +4,10 @@ This project trains an AI agent to autonomously drive in the **CarRacing-v3** en
 No external reinforcement learning libraries like Stable Baselines or RLlib were used.
 
 Watch the trained agent in action:
-https://github.com/user-attachments/assets/6bfa03b2-50ea-424c-92eb-93594da556f7
+
+https://github.com/user-attachments/assets/a63adbc1-21a1-46d3-b372-088868fa7210
+
+
 ##  How It Works
 
 - The agent observes the environment through **4 stacked RGB frames** (shape: `4 x 96 x 96 x 3`), enabling motion detection from pixel changes over time.
